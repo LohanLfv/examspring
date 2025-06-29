@@ -13,7 +13,7 @@ pipeline {
         DOCKER_IMAGE_NAME = 'lohanlfv/examspringbook'
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
         SONAR_TOKEN_ID = 'sonarqube-token'
-        SONAR_HOST_URL = 'http://192.168.244.147:9000'
+        SONAR_HOST_URL = 'http://192.168.244.146:9000'
     }
 
     stages {
