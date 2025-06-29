@@ -72,7 +72,7 @@ pipeline {
                 script {
                     sh "docker stop examspring-app || true"
                     sh "docker rm examspring-app || true"
-                    sh "docker run -d --name examspring-app -p 8080:8080 ${env.FULL_IMAGE_NAME}"
+                    sh "docker run -d --name examspring-app -p 8082:8080 ${env.FULL_IMAGE_NAME}"
                 }
             }
         }
