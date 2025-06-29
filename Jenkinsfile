@@ -12,7 +12,7 @@ pipeline {
         // Nom complet de votre image sur Docker Hub
         DOCKER_IMAGE_NAME = 'lohanlfv/examspringbook'
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
-        SONAR_TOKEN_ID = 'sonar-token'
+        SONAR_TOKEN_ID = 'sonarqube-token'
         SONAR_HOST_URL = 'http://192.168.244.147:9000'
     }
 
