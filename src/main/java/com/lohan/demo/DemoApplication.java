@@ -16,7 +16,7 @@ public class DemoApplication {
      */
     @GetMapping("/")
     public String hello() {
-        return "Hello World, Lohan Lefevre";
+        return "Hello World, Lohan Lefevre test pipeline";
     }
 
     /**
